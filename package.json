@@ -1,0 +1,15 @@
+{
+  "name": "calculatrice-console",
+  "version": "1.0.0",
+  "description": "Une calculatrice console en Node.js avec les opérations de base",
+  "main": "calculatrice.js",
+  "scripts": {
+    "start": "node calculatrice.js"
+  },
+  "keywords": ["calculatrice", "console", "nodejs", "mathematiques"],
+  "author": "Étudiant BTS SIO",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+} 
