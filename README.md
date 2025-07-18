@@ -1,77 +1,52 @@
-# Calculatrice Console 🔢
+# Calculatrice Console 
 
-Une calculatrice console interactive développée en Node.js qui permet d'effectuer les opérations mathématiques de base.
+Une calculatrice console en Node.js qui permet d'effectuer les quatre opérations mathématiques de base.
 
-## Fonctionnalités ✨
+## Fonctionnalités
 
-- **Opérations de base** : Addition, Soustraction, Multiplication, Division
-- **Interface utilisateur intuitive** avec menu interactif
-- **Gestion d'erreurs robuste** pour les entrées non numériques
-- **Validation de la division par zéro**
-- **Boucle continue** permettant d'effectuer plusieurs calculs
-- **Code modulaire** avec une fonction dédiée pour chaque opération
+- **Opérations de base** : Addition (+), Soustraction (-), Multiplication (*), Division (/)
+- **Gestion d'erreurs** pour les entrées non numériques
+- **Boucle interactive** permettant d'effectuer plusieurs calculs consécutifs
+- **Interface utilisateur** avec validation en temps réel
 
-## Installation et utilisation 🚀
+## 🚀 Installation et utilisation
 
 ### Prérequis
 - Node.js (version 12 ou supérieure)
 
 ### Lancement
 ```bash
-# Méthode 1 : Exécution directe
 node calculatrice.js
-
-# Méthode 2 : Via npm
-npm start
 ```
 
-## Utilisation 📖
+## 📖 Guide d'utilisation
 
-1. **Lancez la calculatrice** avec l'une des commandes ci-dessus
-2. **Choisissez une opération** dans le menu (1-5)
-3. **Entrez le premier nombre** lorsque demandé
-4. **Entrez le second nombre** lorsque demandé
-5. **Consultez le résultat** affiché
-6. **Choisissez** de continuer ou quitter
+1. **Lancez la calculatrice**
+2. **Entrez les nombres**
+3. **Choisissez l'opération** : `+`, `-`, `*` ou `/`
+4. **Consultez le résultat**
+5. **Choisissez de continuer** (`o`/`oui`) ou **quitter** (`n`/`non`)
 
 ### Exemple d'utilisation
 ```
-=== CALCULATRICE ===
-1. Addition (+)
-2. Soustraction (-)
-3. Multiplication (*)
-4. Division (/)
-5. Quitter
-====================
-Choisissez une opération (1-5) : 1
 Entrez le premier nombre : 15.5
-Entrez le second nombre : 7.3
+Entrez le deuxième nombre : 7.3
+Entrez une opération (+, -, *, /) : +
+Résultat : 15.5 + 7.3 = 22.8
 
-✅ Résultat : 15.5 + 7.3 = 22.8
+Voulez-vous faire un autre calcul ? (o/n) : o
 
-Voulez-vous effectuer un autre calcul ? (o/n) : o
+Entrez le premier nombre : 10
+Entrez le deuxième nombre : 0
+Entrez une opération (+, -, *, /) : /
+Résultat : 10 / 0 = Erreur : On ne peut pas diviser par 0
+
+Voulez-vous faire un autre calcul ? (o/n) : n
+
+## Contraintes respectées 
 ```
 
-## Structure du code 🏗️
-
-- **Fonctions d'opération** : `addition()`, `soustraction()`, `multiplication()`, `division()`
-- **Validation des entrées** : `estNombreValide()`, `demanderNombre()`
-- **Interface utilisateur** : `afficherMenu()`, `demanderChoix()`
-- **Logique principale** : `calculatrice()` avec boucle et gestion d'erreurs
-- **Switch case** pour la sélection d'opération
-
-## Gestion d'erreurs 🛡️
-
-- ✅ Validation des entrées numériques
-- ✅ Protection contre la division par zéro
-- ✅ Validation des choix du menu (1-5)
-- ✅ Gestion des réponses oui/non pour continuer
-
-## Contraintes respectées ✅
-
-- ✅ Fonction dédiée pour chaque opération
-- ✅ Aucune répétition de code inutile
-- ✅ Gestion complète des erreurs
-- ✅ Menu interactif avec switch case
-- ✅ Boucle pour recommencer
-- ✅ Interface utilisateur claire 
+- Une fonction par opération
+- Utilisation de fonctions 
+- Gestion complète des erreurs
+- Boucle pour recommencer 
