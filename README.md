@@ -9,17 +9,17 @@ Une calculatrice console en Node.js qui permet d'effectuer les quatre opération
 - **Boucle interactive** permettant d'effectuer plusieurs calculs consécutifs
 - **Interface utilisateur** avec validation en temps réel
 
-## 🚀 Installation et utilisation
+## Installation et utilisation
 
 ### Prérequis
-- Node.js (version 12 ou supérieure)
+- Node.js
 
 ### Lancement
 ```bash
 node calculatrice.js
 ```
 
-## 📖 Guide d'utilisation
+## Guide d'utilisation
 
 1. **Lancez la calculatrice**
 2. **Entrez les nombres**
