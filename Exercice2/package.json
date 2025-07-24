@@ -1,0 +1,22 @@
+{
+  "name": "jeu-devinettes-console",
+  "version": "1.0.0",
+  "description": "Un jeu de devinettes console avec plusieurs niveaux de difficulté et enregistrement des parties",
+  "main": "jeu-devinettes.js",
+  "scripts": {
+    "start": "node jeu-devinettes.js",
+    "dev": "node jeu-devinettes.js"
+  },
+  "keywords": [
+    "jeu",
+    "devinettes",
+    "console",
+    "nodejs",
+    "interactif"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+} 
