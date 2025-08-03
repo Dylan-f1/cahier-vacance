@@ -1,0 +1,22 @@
+{
+  "name": "gestionnaire-taches",
+  "version": "1.0.0",
+  "description": "Un gestionnaire de tâches en console avec sauvegarde JSON",
+  "main": "gestionnaire-taches.js",
+  "scripts": {
+    "start": "node gestionnaire-taches.js",
+    "dev": "node gestionnaire-taches.js"
+  },
+  "keywords": [
+    "taches",
+    "console",
+    "javascript",
+    "nodejs",
+    "json"
+  ],
+  "author": "BTS SIO",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+} 
